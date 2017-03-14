@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>grid-layout</title>
+		<link rel="stylesheet" href="code/css/reset.css" />
+		<link rel="stylesheet" href="code/css/text.css" />
+        <link rel="stylesheet" href="code/css/960.css" />
+        <link rel="stylesheet" href="code/css/grid-layout.css" />
+    </head>
+	<body>
+		<div class="container_12">
+		<div id="header" class="grid_12">
+			<p>940px</p>
+		</div>
+		<div class="clear"></div>
+		<div id="nav" class="grid_12">
+			<p>940px</p>
+		</div>
+		<div class="clear"></div>
+		<div id="section1" class="grid_12">
+			<p>940px</p>
+		</div>
+		<div class="clear"></div>
+		<div class="grid_8 push_4">
+			<div id="article1" class="grid_4 alpha">
+				<p>300px</p>
+			</div>
+			<div id="article2" class="grid_4 omega">
+				<p>300px</p>
+			</div>
+		</div>
+		<div class="grid_1 pull_8">
+			<div id="article3" class="grid_4 alpha">
+				<p>300px</p>
+            </div>
+		</div>
+		<div id="footer" class="grid_12">
+			<p>940px</p>
+		</div>
+	</div>
+	</body>
+</html>

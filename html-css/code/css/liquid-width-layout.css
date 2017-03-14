@@ -1,0 +1,37 @@
+
+.nav ul{
+	text-align: center;
+}
+.nav li{
+	display:inline-block;
+	padding-top: 0.8%;
+	padding-bottom: 0.8%;
+	text-decoration: underline;
+	margin-left: 0.8%;
+	
+}
+
+#Conteiner{
+	width:90%;
+	text-align: center;
+	margin:0px auto;
+}
+
+.C1,.C2,.C3{
+	width: 31.7%;
+	float: left;
+	background: red;
+	height:84%;
+	padding:0.4%;
+	margin:0.4%;
+}
+
+.Columns{
+	height: 105px;
+	margin-bottom:10px;
+}
+
+.Feature, .footer,.nav{
+	background: red;
+	margin: 0.4%;
+}

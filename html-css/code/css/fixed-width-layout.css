@@ -1,0 +1,37 @@
+
+.nav ul{
+	text-align: center;
+}
+.nav li{
+	display:inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: underline;
+	margin-left: 15px;
+	
+}
+
+#Conteiner{
+	width:960px;
+	text-align: center;
+	margin:0px auto;
+}
+
+.C1,.C2,.C3{
+	width: 300px;
+	float: left;
+	background: red;
+	height:85px;
+	padding:5px;
+	margin:5px;
+}
+
+.Columns{
+	height: 105px;
+	margin-bottom:10px;
+}
+
+.Feature, .footer,.nav{
+	background: red;
+	margin:5px;
+}

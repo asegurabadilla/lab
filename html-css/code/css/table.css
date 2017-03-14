@@ -1,0 +1,21 @@
+
+.table{
+	width: 500px;
+}
+
+#content-container{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+body{
+	text-align: center;
+}
+
+
+.h2{
+	text-align:left;
+}
+section table ,th,td,tr{
+	border: 1px solid black;
+}

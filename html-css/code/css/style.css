@@ -1,0 +1,53 @@
+*{
+	position: static;
+}
+
+.relative-position {
+    position: relative;
+    left: 25px;
+    border: 3px solid #73AD21;
+	background-color: gray;
+}
+
+article p.absolute-position{
+    position: absolute;
+    border: 3px solid yellow;
+	background-color: gray;
+	bottom:190px;
+}
+
+article p.fixed-position{
+    position: fixed;
+	border: 3px solid #73AD21;
+	background-color: gray;
+	bottom: 0;
+}
+
+article p.float{
+    float: left;
+	border: 3px solid green;
+	width:800px;
+}
+
+#footer{
+	float:left;
+	width: 100%;
+}
+
+.footer{
+	background:yellow;
+}
+
+.h1{
+	background:yellow;
+}
+
+/*
+	aplica para la division de columnas
+*/
+article div {
+	float: left;
+	width: 320px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
