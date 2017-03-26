@@ -1,0 +1,97 @@
+/*-------------default values-----------------*/
+
+body,html {
+	font-family:Georgia, serif;
+	font-size:96%;
+	border:2px solid black;
+}
+
+h1,h2,h3,h4{
+	margin:7px 0px 7px 0px;
+	padding:7px 0px 7px 0px;
+}
+
+h2{
+	display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+	color:#330080;
+}
+h3 { 
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+	color:green;
+}
+h4 { 
+    display: block;
+    font-size: 1em;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+	color:red;
+}
+
+p{
+	margin:3px 0px 3px 0px;
+	padding:5px 0px 5px 0px;
+}
+
+/* conteiner-content-box model*/
+#container{
+	margin:0px 3px 3px 3px;
+	padding: 3px;
+}
+
+#picture{
+	width: 100%;
+}
+
+#content-container{
+	margin-bottom:62.4px;
+	width:100%;
+	height:100%;
+}
+/*margin content-center dafault*/
+.content-center{
+	margin: 0 7px 0 7px;
+}
+/*mark a letter on paragraph*/
+.mark{
+	color:red;
+	background-color:white;
+	font-weight: bold;
+}
+/*menu sections ul li a default*/
+.menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu  li a:hover {
+    background-color: rgb(255, 255, 255);
+}
+.menu  li:first-child a{
+	text-decoration: none;
+}
+
+.menu  li:last-child a{
+	border-right: none;
+}
+
+/*footer fixed position but default values*/
+#footer{
+    background-color: rgb(176,176,176);
+	text-align:center;
+	margin:7px 10px 9px 10px;
+}
